@@ -19,9 +19,9 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
                             <NavItem>
                                 <NavLink tag={Link} style={{color:'#F78501', marginRight:50}} className="ml-1" to="/">Anasayfa</NavLink>
                             </NavItem>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink tag={Link} style={{color:'#F78501', marginRight:50}} className="ml-1" to="/sss">SSS</NavLink>
-                            </NavItem>
+                            </NavItem> */}
                             <NavItem>
                                 <NavLink tag={Link} style={{color:'#F78501', marginRight:50}} className="ml-1" to="/iletisim">İletişim</NavLink>
                             </NavItem>
