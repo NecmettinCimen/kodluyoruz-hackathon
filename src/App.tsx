@@ -1,16 +1,20 @@
 import * as React from 'react';
 import { Route } from 'react-router';
 import Layout from './components/Layout';
-import Home from './components/Home';
-import Counter from './components/Counter';
+import Home from './Pages/Home';
+import Contact from './Pages/Contact';
+import SSS from './Pages/SSS';
 import FetchData from './components/FetchData';
 
 import './custom.css'
+import HackathonDetail from './Pages/HackathonDetail';
 
 export default () => (
     <Layout>
         <Route exact path='/' component={Home} />
-        <Route path='/counter' component={Counter} />
+        <Route exact path='/iletisim' component={Contact} />
+        <Route exact path='/sss' component={SSS} />
+        <Route exact path='/hackathondetail' component={HackathonDetail} />
         <Route path='/fetch-data/:startDateIndex?' component={FetchData} />
     </Layout>
 );
