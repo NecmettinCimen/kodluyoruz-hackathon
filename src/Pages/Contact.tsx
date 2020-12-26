@@ -22,8 +22,8 @@ const Iletisim = () => (
     </div>
     <div className="row" style={{ marginTop: -150 }}>
       <div className="col-3"></div>
-      <div className="col-6" style={{ margin: 50, backgroundColor: '#ffc861', maxWidth: 600 }}>
-        <h1 style={{ textAlign: 'center' }}>İletişim Formu</h1>
+      <div className="col-6" style={{ margin: 50,color:"white", backgroundColor: '#7232C5', maxWidth: 600 }}>
+        <h1 style={{ textAlign: 'center', margin:"50 0 0 0"}}>İletişim Formu</h1>
         <div style={{ height: 50 }} />
         <form className="row" style={{ margin: 10 }}>
           <div className="col-6">

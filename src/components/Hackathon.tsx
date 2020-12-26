@@ -1,14 +1,15 @@
 import * as React from 'react';
-import Bosluk from './Bosluk';
 import Box from './Box';
+import './Hackathon.css';
 
 const Hackathon = () => (
-    <div>
-      <Bosluk/>
-        <div/>
-        <h1 >Başvuru Süreci Devam Eden Hackathonlar</h1>
-        <div/>
-        <div>
+    <div className='hackathon-container'>
+        <div className="header">
+        <h1 className="header-text">Başvuru Süreci Devam Eden Hackathonlar</h1>
+        </div>
+        <div className='box-container'>
+            <Box />
+            <Box />
             <Box />
         </div>
     </div>

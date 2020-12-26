@@ -15,12 +15,11 @@ const Box = () => (
                <h4>Web Hackathon</h4>
             </Link>
             <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, doloremque.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, quasi.
            </p>
             <div className="date">
                
                <div className="date-info">
-                  <h5>Tarih</h5>
                   <small>21.12.2020</small>
                </div>
             </div>
