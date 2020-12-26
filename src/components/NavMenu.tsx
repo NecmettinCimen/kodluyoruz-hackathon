@@ -40,7 +40,7 @@ export default class NavMenu extends React.PureComponent<
 								<NavItem>
 									<NavLink
 										tag={Link}
-										style={{ color: "#F78501", marginRight: 50, fontWeight:400, fontSize:25 }}
+										style={{ color: "#F78501", marginRight: 30, fontWeight:400, fontSize:22 }}
 										className="ml-1"
 										to="/"
 									>
@@ -53,7 +53,7 @@ export default class NavMenu extends React.PureComponent<
 								<NavItem>
 									<NavLink
 										tag={Link}
-										style={{ color: "#F78501", marginRight: 50, fontWeight:400, fontSize:25 }}
+										style={{ color: "#F78501", marginRight: 50, fontWeight:400, fontSize:22 }}
 										className="ml-1"
 										to="/iletisim"
 									>

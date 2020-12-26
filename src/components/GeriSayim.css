@@ -19,7 +19,6 @@ body {
 h1 {
 	font-weight: normal;
 	letter-spacing: 0.125rem;
-	text-transform: uppercase;
 }
 
 li {
@@ -27,7 +26,6 @@ li {
 	font-size: 1.5em;
 	list-style-type: none;
 	padding: 1em;
-	text-transform: uppercase;
 }
 
 li span {

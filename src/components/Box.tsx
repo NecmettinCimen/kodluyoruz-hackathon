@@ -4,16 +4,16 @@ import './Box.css';
 
 
 
-const Box = (title:string,context:string,date:string) => (
+const Box = (title:string,context:string,date:string,isOpen:boolean,headerImage:string) => (
    <div>
       <div className="card">
          <Link to='/hackathondetail'>
             <div className="card-header">
-               <img src="https://images.pexels.com/photos/3178744/pexels-photo-3178744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="rover" />
+               <img src={headerImage} alt="photo" />
             </div>
          </Link>
          <div className="card-body">
-         <span className="tag tag-purple"></span>
+         <span className={`tag ${isOpen ? 'tag-teal' : 'tag-pink'}`}>{isOpen ? 'Başvurular Açık' : 'Başvurular Kapalı'}</span>
             <Link to='/hackathondetail'>
                <h4>{title}</h4>
             </Link>

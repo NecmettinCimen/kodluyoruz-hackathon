@@ -4,12 +4,13 @@ const ToplulugaKatil = () => (
 	<div
 		style={{
 			height: 250,
+			margin:50
 		}}
 	>
-		<h1 className="header-text textAlignCenter">Topluluğa katıl</h1>
+		<h1 className="header-text textAlignCenter">Topluluğa Katıl</h1>
 		<p className="textAlignCenter">
 			Sen de Discord sunucumuza katılarak, etkinliklerden yarışmalardan haberdar
-			olabilir ve yüzlerce kullanıcıyla süregeen etkinliklere katılma şansı
+			olabilir ve yüzlerce kullanıcıyla süregelen etkinliklere katılma şansı
 			yakalayabilirsin.{" "}
 		</p>
 		<div style={{display: 'grid', placeItems: 'center'}}>
@@ -19,7 +20,7 @@ const ToplulugaKatil = () => (
                 style={{width:'max-content'}}
 				href="https://discord.gg/fBGEkpGrB5"
 			>
-				Hemen Katıl
+				<img src="https://seeklogo.com/images/D/discord-logo-134E148657-seeklogo.com.png" style={{width:50}} /> Hemen Katıl
 			</a>
 		</div>
 	</div>
