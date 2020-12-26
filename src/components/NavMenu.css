@@ -22,6 +22,11 @@ color: white;
     color: white;
 }
 
+
 .ml-1{
     margin-left: 5px;
+}
+
+.menuitem:hover{
+    text-decoration:underline;
 }

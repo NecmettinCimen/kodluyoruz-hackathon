@@ -25,10 +25,11 @@ export default class NavMenu extends React.PureComponent<
 				<Navbar
 					className="navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow"
 					light
+
 				>
 					<Container>
 						<NavbarBrand tag={Link} to="/">
-							<img src="/assets/kodluyoruz999.png" style={{ width: 200 }} />
+							<img src="/assets/kodluyoruz999.png" style={{ width: 200 }} alt="" />
 						</NavbarBrand>
 						<NavbarToggler onClick={this.toggle} className="mr-2" />
 						<Collapse
@@ -41,7 +42,7 @@ export default class NavMenu extends React.PureComponent<
 									<NavLink
 										tag={Link}
 										style={{ color: "#F78501", marginRight: 30, fontWeight:400, fontSize:22 }}
-										className="ml-1"
+										className="ml-1 menuitem"
 										to="/"
 									>
 										Anasayfa
@@ -54,7 +55,7 @@ export default class NavMenu extends React.PureComponent<
 									<NavLink
 										tag={Link}
 										style={{ color: "#F78501", marginRight: 50, fontWeight:400, fontSize:22 }}
-										className="ml-1"
+										className="ml-1 menuitem"
 										to="/iletisim"
 									>
 										İletişim

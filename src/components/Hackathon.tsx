@@ -12,6 +12,7 @@ const Hackathon = () => (
             {Box('Mobile App Serisi #1','Donec ac quam in purus pellentesque accumsan quis sit amet nulla.','16.01.2021',true,'/assets/hack2.jpeg')}
             {Box('Web Serisi #1','Phasellus elementum lacus sed luctus lobortis. Sed fermentum lorem.','26.12.2020',false,'/assets/hack3.jpeg')}
         </div>
+
     </div>
 );
 

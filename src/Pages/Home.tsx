@@ -11,8 +11,10 @@ const Home = () => (
     <AnaKisim />
     <Hackathon />
     <ToplulugaKatil />
+    <div style={{height:150}} />
     <h1 className="header-text textAlignCenter">Sıkça Sorulan Sorular</h1>
     <SSSKisim />
+    <div style={{height:100}} />
     <Sponsorlar />
   </div>
 );

@@ -10,7 +10,7 @@ const Iletisim = () => (
   <div>
     <div style={{ height: 20 }} />
     <div style={{ flex: 1 }} dangerouslySetInnerHTML={iframe()}></div>
-    <div style={{ width: 250, position: 'absolute', top: 100, right: 100, padding: 10, backgroundColor:"#F78501" , color: "#FCFCFC", borderRadius: 5, }}>
+    <div style={{ width: 250, position: 'absolute', top: 150, right: 100, padding: 10, backgroundColor:"#F78501" , color: "#FCFCFC", borderRadius: 5, }}>
       <p>
         <strong>Bize Ulaşın</strong>
         <strong>
@@ -22,7 +22,7 @@ const Iletisim = () => (
     </div>
     <div className="row" style={{ marginTop: -150 }}>
       <div className="col-3"></div>
-      <div className="col-6" style={{ margin: 50,color:"white", backgroundColor: '#7232C5', maxWidth: 600 }}>
+      <div className="col-6" style={{ borderRadius:5, margin: 50,color:"white", backgroundColor: '#7232C5', maxWidth: 600 }}>
         <h1 style={{ textAlign: 'center', margin:"50 0 0 0"}}>İletişim Formu</h1>
         <div style={{ height: 50 }} />
         <form className="row" style={{ margin: 10 }}>
@@ -39,7 +39,7 @@ const Iletisim = () => (
             <textarea className="form-control" rows={10} ></textarea>
           </div>
           <div style={{ marginTop: 10, marginBottom: 10 }} className="col-12">
-            <button className="btn btn-block btn-primary">Gönder</button>
+            <button className="btn btn-block btn-primary col-4 offset-4" style={{backgroundColor:' #f78501',borderColor:' #f78501'}}>Gönder</button>
           </div>
         </form>
       </div>
