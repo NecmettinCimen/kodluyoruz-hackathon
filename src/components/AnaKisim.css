@@ -2,6 +2,8 @@
    margin:0;
    background: #4237df;
    background: linear-gradient(90deg, #4237df 0%, #b191ff 100%);
+   background: -webkit-linear-gradient(90deg, #4237df 0%, #b191ff 100%);
+   background: -moz-linear-gradient(90deg, #4237df 0%, #b191ff 100%);
    display: flex;
    justify-content: center;
    align-items:center;

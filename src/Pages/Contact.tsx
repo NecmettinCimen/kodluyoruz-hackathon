@@ -21,7 +21,7 @@ const Iletisim = () => (
       </p>
     </div>
     <div style={{ height: 50 }} />
-    <div style={{ margin: 50, backgroundColor: '#F4F4F4' }}>
+    <div style={{ margin: 50, backgroundColor: '#F4F4F4', maxWidth:600 }}>
       <h1 style={{ textAlign: 'center' }}>İletişim Formu</h1>
       <div style={{ height: 50 }} />
       <form className="row" style={{ margin: 10 }}>

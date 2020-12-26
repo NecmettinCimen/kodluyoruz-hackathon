@@ -2,12 +2,8 @@ import * as React from 'react';
 import './Box.css';
 
 const Hackathon = () => (
-    <div style={{
-        background: '#E5FF46',
-        height: 400
-
-    }}>
-        <div style={{ height: 25 }} />
+    <div>
+        <div/>
         <h1 style={{ textAlign: 'center' }}>Başvuru Süreci Devam Eden Hackathonlar</h1>
         <div style={{ height: 100 }} />
         <div style={{
@@ -24,7 +20,7 @@ const Box = () => (
     <div>
         <div className="card">
     <div className="card-header">
-      <img src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg" alt="rover" />
+      <img src="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="rover" />
     </div>
     <div className="card-body">
       {/* <span className="tag tag-teal">Technology</span> */}
@@ -32,7 +28,7 @@ const Box = () => (
         Web Hackathon
       </h4>
       <p>
-        An exploration into the truck's polarising design
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, doloremque.
       </p>
       <div className="user">
         <img src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo" alt="user" />
@@ -46,4 +42,4 @@ const Box = () => (
     </div>
 )
 
-export default HackathonreciDevamEdenH
+export default Hackathon

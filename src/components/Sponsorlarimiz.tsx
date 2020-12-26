@@ -14,7 +14,7 @@ const Sponsorlar = () => (
                 <img src={"/assets/kablosuz999.png"} style={{ height: 100, display:'block', margin:'0 auto' }} />
             </div>
             {Box("/assets/kodluyoruz999.png")}
-            {Box("/assets/LogoSmile999.png")}
+            {Box("/assets/logo-smile.png")}
         </div>
     </div>
 );
