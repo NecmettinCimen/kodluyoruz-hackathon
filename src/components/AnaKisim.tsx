@@ -16,8 +16,8 @@ const AnaKisim = () => (
                     <p>Kodlama becerilerini göstermek isteyen gençler, zorlu mücadele sizleri bekliyor</p>
                 </div>
             </div>
-        </div>
         <Bosluk />
+        </div>
     </div>
 );
 
