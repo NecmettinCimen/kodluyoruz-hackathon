@@ -13,19 +13,14 @@ class SSSKisim extends React.Component {
     render() {
         return (
             <div style={{ margin: 50 }}>
-                <button className={this.classNamesButton(1)} onClick={()=>this.setActive(1)}>Section 1</button>
+                <button className={this.classNamesButton(1)} onClick={()=>this.setActive(1)}>Backend gibi herhangi bir teknoloji kullanabilir miyim?</button>
                 <div className={this.classNamesPanel(1)}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Evet. Her bir takım için backend veya herhangi bir teknoloji kullanmaları tamamen serbest olup puanlamada ek olarak avantaj sağlayacağından emin olabilirsiniz. Fakat backend veya web frameworklerinin olmaması takımınızı bu etkinlikte elemez.</p>
                 </div>
 
-                <button className={this.classNamesButton(2)} onClick={()=>this.setActive(2)}>Section 2</button>
+                <button className={this.classNamesButton(2)} onClick={()=>this.setActive(2)}>Siteye yukarıda belirtilmeyen fakat eklenmesi gerektiğini düşündüğüm bazı detayları ekleyebilir miyim?</button>
                 <div className={this.classNamesPanel(2)}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <button className={this.classNamesButton(3)} onClick={()=>this.setActive(3)}>Section 3</button>
-                <div className={this.classNamesPanel(3)}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Tabii ki. Kodluyoruz Hackathon tamamen yeni fikirlere ve ayrıcalıklara özen gösteren ve herkesin aklında olanları kodlara dökmek için tamamen serbest olduğu bir etkinliktir.</p>
                 </div>
             </div>
         );

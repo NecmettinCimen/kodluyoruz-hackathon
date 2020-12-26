@@ -12,27 +12,27 @@ export default class NavMenu extends React.PureComponent<{}, { isOpen: boolean }
         return (
             <header>
                 <Navbar className="navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow" light>
-                        <NavbarBrand tag={Link} to="/">kodluyoruzhackaton</NavbarBrand>
-                        <NavbarToggler onClick={this.toggle} className="mr-2"/>
-                        <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={this.state.isOpen} navbar>
-                            <ul className="navbar-nav flex-grow">
-                                <NavItem>
-                                    <NavLink tag={Link} className="kodluyoruz-turuncu-button ml-1" to="/">Anasayfa</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink tag={Link} className="kodluyoruz-turuncu-button ml-1" to="/sss">SSS</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink tag={Link} className="kodluyoruz-turuncu-button ml-1" to="/iletisim">İletişim</NavLink>
-                                </NavItem>
-                                {/* <NavItem>
+                    <NavbarBrand tag={Link} to="/"><img src="/assets/kodluyoruz999.png" style={{ width: 200 }} /></NavbarBrand>
+                    <NavbarToggler onClick={this.toggle} className="mr-2" />
+                    <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={this.state.isOpen} navbar>
+                        <ul className="navbar-nav flex-grow">
+                            <NavItem>
+                                <NavLink tag={Link} style={{color:'#F78501', marginRight:50}} className="ml-1" to="/">Anasayfa</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink tag={Link} style={{color:'#F78501', marginRight:50}} className="ml-1" to="/sss">SSS</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink tag={Link} style={{color:'#F78501', marginRight:50}} className="ml-1" to="/iletisim">İletişim</NavLink>
+                            </NavItem>
+                            {/* <NavItem>
                                     <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
                                 </NavItem> */}
-                            </ul>
-                        </Collapse>
+                        </ul>
+                    </Collapse>
                 </Navbar>
             </header>
         );

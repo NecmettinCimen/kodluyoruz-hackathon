@@ -43,21 +43,26 @@
    font-size: 13px;
    margin: 0 0 40px;
  }
- .user {
+
+ .card-body a{
+   text-decoration: none;
+   color: #000;
+ }
+
+ .card-body a:hover{
+   color: #B191FF;
+ }
+
+ .date {
    display: flex;
    margin-top: auto;
  }
  
- .user img {
-   border-radius: 50%;
-   width: 40px;
-   height: 40px;
-   margin-right: 10px;
- }
- .user-info h5 {
+
+ .date-info h5 {
    margin: 0;
  }
- .user-info small {
+ .date-info small {
    color: #545d7a;
  }
  

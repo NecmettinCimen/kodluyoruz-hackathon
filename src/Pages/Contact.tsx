@@ -10,7 +10,7 @@ const Iletisim = () => (
   <div>
     <div style={{ height: 20 }} />
     <div style={{ flex: 1 }} dangerouslySetInnerHTML={iframe()}></div>
-    <div style={{ width:250, position: 'absolute', top: 100, right: 100, padding: 10, backgroundColor:"#ffc861", color:"#FCFCFC", borderRadius:5, }}>
+    <div style={{ width: 250, position: 'absolute', top: 100, right: 100, padding: 10, backgroundColor:"#F78501" , color: "#FCFCFC", borderRadius: 5, }}>
       <p>
         <strong>Bize Ulaşın</strong>
         <strong>
@@ -20,27 +20,29 @@ const Iletisim = () => (
           <br />E-posta: </strong>info@kodluyoruz.org<br />
       </p>
     </div>
-    <div style={{ height: 50 }} />
-    <div style={{ margin: 50, backgroundColor: '#F4F4F4', maxWidth:600 }}>
-      <h1 style={{ textAlign: 'center' }}>İletişim Formu</h1>
-      <div style={{ height: 50 }} />
-      <form className="row" style={{ margin: 10 }}>
-        <div className="col-6">
-          <label>İsim</label>
-          <input placeholder="İsim" className="form-control" />
-        </div>
-        <div className="col-6">
-          <label>E-Posta</label>
-          <input placeholder="E-Posta" className="form-control" />
-        </div>
-        <div className="col-12">
-          <label>Mesaj</label>
-          <textarea className="form-control" rows={10} ></textarea>
-        </div>
-        <div style={{ marginTop: 10, marginBottom: 10 }} className="col-12">
-          <button className="btn btn-block btn-primary">Gönder</button>
-        </div>
-      </form>
+    <div className="row" style={{ marginTop: -150 }}>
+      <div className="col-3"></div>
+      <div className="col-6" style={{ margin: 50, backgroundColor: '#ffc861', maxWidth: 600 }}>
+        <h1 style={{ textAlign: 'center' }}>İletişim Formu</h1>
+        <div style={{ height: 50 }} />
+        <form className="row" style={{ margin: 10 }}>
+          <div className="col-6">
+            <label>İsim</label>
+            <input placeholder="İsim" className="form-control" />
+          </div>
+          <div className="col-6">
+            <label>E-Posta</label>
+            <input placeholder="E-Posta" className="form-control" />
+          </div>
+          <div className="col-12">
+            <label>Mesaj</label>
+            <textarea className="form-control" rows={10} ></textarea>
+          </div>
+          <div style={{ marginTop: 10, marginBottom: 10 }} className="col-12">
+            <button className="btn btn-block btn-primary">Gönder</button>
+          </div>
+        </form>
+      </div>
     </div>
     <div style={{ height: 50 }} />
 
