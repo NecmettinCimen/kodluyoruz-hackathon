@@ -4,7 +4,7 @@ const Sponsorlar = () => (
     <div style={{
         height: 250
     }}>
-        <h1 style={{ textAlign: 'center' }}>Sponsorlarımız</h1>
+        <h1 className="textAlignCenter">Sponsorlarımız</h1>
         <div style={{
             display: 'flex',
             alignItems: 'center',

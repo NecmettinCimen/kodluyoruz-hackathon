@@ -11,7 +11,7 @@ const Home = () => (
     <AnaKisim />
     <Hackathon />
     <ToplulugaKatil />
-    <h1 style={{textAlign:'center'}}>SSS</h1>
+    <h1 className="header-text textAlignCenter">SSS</h1>
     <SSSKisim />
     <Sponsorlar />
   </div>

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 const HackathonDetail = () => (
   <div style={{margin:100}}>
-    <h1 style={{textAlign:'center'}}>Kodluyoruz Hackathon #1</h1>
+    <h1 className="textAlignCenter">Kodluyoruz Hackathon #1</h1>
     <div style={{height:50}} />
     <div  style={{display:'block', margin:'0 auto', height:250, width:500, backgroundColor:'#FFB168'}} />
     <div style={{height:50}} />

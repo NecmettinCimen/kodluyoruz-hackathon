@@ -8,9 +8,9 @@ const Hackathon = () => (
         <h1 className="header-text">Başvuru Süreci Devam Eden Hackathonlar</h1>
         </div>
         <div className='box-container'>
-            <Box />
-            <Box />
-            <Box />
+            {Box('','','')}
+            {Box('','','')}
+            {Box('','','')}
         </div>
     </div>
 );

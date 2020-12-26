@@ -4,7 +4,7 @@ import SSSKisim from '../components/SSSKisim';
 
 const SSS = () => (
   <div style={{margin:50}}>
-    <h1 style={{textAlign:'center'}}>SSS!</h1>
+    <h1 className="textAlignCenter">SSS!</h1>
     <SSSKisim />
   </div>
 );
