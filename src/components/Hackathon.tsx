@@ -8,9 +8,9 @@ const Hackathon = () => (
         <h1 className="header-text">Başvuru Süreci Devam Eden Hackathonlar</h1>
         </div>
         <div className='box-container'>
-            {Box('','','')}
-            {Box('','','')}
-            {Box('','','')}
+            {Box('Web Hackathon Serisi #2','Lorem ipsum','30.01.2021')}
+            {Box('Mobile App Hackathon Serisi #1','Lorem','16.01.2021')}
+            {Box('Web Hackathon Serisi #1','Lorem','26.12.2020')}
         </div>
     </div>
 );

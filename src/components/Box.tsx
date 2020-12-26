@@ -7,13 +7,14 @@ import './Box.css';
 const Box = (title:string,context:string,date:string) => (
    <div>
       <div className="card">
-         <Link to='/'>
+         <Link to='/hackathondetail'>
             <div className="card-header">
                <img src="https://images.pexels.com/photos/3178744/pexels-photo-3178744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="rover" />
             </div>
          </Link>
          <div className="card-body">
-            <Link to='/'>
+         <span className="tag tag-purple"></span>
+            <Link to='/hackathondetail'>
                <h4>{title}</h4>
             </Link>
             <p>

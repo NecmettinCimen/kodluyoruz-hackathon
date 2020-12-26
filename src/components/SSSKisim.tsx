@@ -22,6 +22,11 @@ class SSSKisim extends React.Component {
                 <div className={this.classNamesPanel(2)}>
                     <p>Tabii ki. Kodluyoruz Hackathon tamamen yeni fikirlere ve ayrıcalıklara özen gösteren ve herkesin aklında olanları kodlara dökmek için tamamen serbest olduğu bir etkinliktir.</p>
                 </div>
+                
+                <button className={this.classNamesButton(2)} onClick={()=>this.setActive(2)}>Siteye yukarıda belirtilmeyen fakat eklenmesi gerektiğini düşündüğüm bazı detayları ekleyebilir miyim?</button>
+                <div className={this.classNamesPanel(2)}>
+                    <p>Tabii ki. Kodluyoruz Hackathon tamamen yeni fikirlere ve ayrıcalıklara özen gösteren ve herkesin aklında olanları kodlara dökmek için tamamen serbest olduğu bir etkinliktir.</p>
+                </div>
             </div>
         );
     }
