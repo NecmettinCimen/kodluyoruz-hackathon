@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae1f87d4969b1384fc853fb0b50a0503",
+    "revision": "5421397b69cca76a33689cb47ef33319",
     "url": "/kodluyoruzhackathon/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kodluyoruzhackathon/static/css/2.cf29e716.chunk.css"
   },
   {
-    "revision": "c3ee12d2ea917a5a88db",
+    "revision": "ff4cbdff5acf7fbebe52",
     "url": "/kodluyoruzhackathon/static/css/main.62ccda5d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kodluyoruzhackathon/static/js/2.1daaafba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3ee12d2ea917a5a88db",
-    "url": "/kodluyoruzhackathon/static/js/main.825be73e.chunk.js"
+    "revision": "ff4cbdff5acf7fbebe52",
+    "url": "/kodluyoruzhackathon/static/js/main.12fe1c20.chunk.js"
   },
   {
     "revision": "6b01a0291a8d64deedd6",
