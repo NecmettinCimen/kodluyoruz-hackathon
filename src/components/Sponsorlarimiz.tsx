@@ -17,10 +17,10 @@ const Sponsorlar = () => (
             justifyContent: 'center',
         }}>
             <div style={{ margin: 50, width: 50, flex: 1, }}>
-                <img alt="" src={"/assets/kablosuz999.png"} style={{ height: 50, display:'block', margin:'0 auto' }} />
+                <img alt="" src={"./assets/kablosuz999.png"} style={{ height: 50, display:'block', margin:'0 auto' }} />
             </div>
-            {Box("/assets/Kodluyoruz_Turuncu logo_Yatay.png")}
-            {Box("/assets/logo-smile.png")}
+            {Box("./assets/Kodluyoruz_Turuncu logo_Yatay.png")}
+            {Box("./assets/logo-smile.png")}
         </div>
     </div>
     </div>

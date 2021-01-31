@@ -19,7 +19,7 @@ const ToplulugaKatil = () => (
 			</h1>
 			<div style={{textAlign:'center',
 		margin: 50}} className="image">
-				<img src="/assets/community.svg" alt="" />
+				<img src="./assets/community.svg" alt="" />
 			</div>
 			<p style={{ marginTop: "2rem" }} className="textAlignCenter">
 				Sen de Discord sunucumuza katılarak, etkinliklerden yarışmalardan

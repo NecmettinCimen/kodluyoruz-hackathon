@@ -29,7 +29,7 @@ export default class NavMenu extends React.PureComponent<
 				>
 					<Container>
 						<NavbarBrand tag={Link} to="/">
-							<img src="/assets/kodluyoruz999.png" style={{ width: 200 }} alt="" />
+							<img src="./assets/kodluyoruz999.png" style={{ width: 200 }} alt="" />
 						</NavbarBrand>
 						<NavbarToggler onClick={this.toggle} className="mr-2" />
 						<Collapse

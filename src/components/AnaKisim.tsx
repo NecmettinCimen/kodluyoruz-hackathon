@@ -5,7 +5,7 @@ const AnaKisim = () => (
     <div className='container-main'>
         <div className="container-sub">
             <div className="image">
-                <img src="/assets/mainimg.svg" alt="" />
+                <img src={"./assets/mainimg.svg"} alt="" />
             </div>
             <div className="content">
                 <div className="content-header">
