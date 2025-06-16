@@ -2,7 +2,7 @@
   "name": "kodluyoruzhackaton",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://necmettincimen.github.io/kodluyoruzhackathon/",
+  "homepage": "http://necmettincimen.github.io/kodluyoruz-hackathon/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "connected-react-router": "6.5.2",
