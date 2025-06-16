@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/kodluyoruzhackathon/static/css/main.62ccda5d.chunk.css",
-    "main.js": "/kodluyoruzhackathon/static/js/main.12fe1c20.chunk.js",
-    "main.js.map": "/kodluyoruzhackathon/static/js/main.12fe1c20.chunk.js.map",
+    "main.css": "/kodluyoruzhackathon/static/css/main.01bd7bfa.chunk.css",
+    "main.js": "/kodluyoruzhackathon/static/js/main.756b8eab.chunk.js",
+    "main.js.map": "/kodluyoruzhackathon/static/js/main.756b8eab.chunk.js.map",
     "runtime-main.js": "/kodluyoruzhackathon/static/js/runtime-main.8e55bad5.js",
     "runtime-main.js.map": "/kodluyoruzhackathon/static/js/runtime-main.8e55bad5.js.map",
     "static/css/2.cf29e716.chunk.css": "/kodluyoruzhackathon/static/css/2.cf29e716.chunk.css",
-    "static/js/2.1daaafba.chunk.js": "/kodluyoruzhackathon/static/js/2.1daaafba.chunk.js",
-    "static/js/2.1daaafba.chunk.js.map": "/kodluyoruzhackathon/static/js/2.1daaafba.chunk.js.map",
+    "static/js/2.628b8b99.chunk.js": "/kodluyoruzhackathon/static/js/2.628b8b99.chunk.js",
+    "static/js/2.628b8b99.chunk.js.map": "/kodluyoruzhackathon/static/js/2.628b8b99.chunk.js.map",
     "index.html": "/kodluyoruzhackathon/index.html",
-    "precache-manifest.ef610f366d71252028b358c30a14041c.js": "/kodluyoruzhackathon/precache-manifest.ef610f366d71252028b358c30a14041c.js",
+    "precache-manifest.b8ab03dbc3f60bd0d413a8da3aa71800.js": "/kodluyoruzhackathon/precache-manifest.b8ab03dbc3f60bd0d413a8da3aa71800.js",
     "service-worker.js": "/kodluyoruzhackathon/service-worker.js",
     "static/css/2.cf29e716.chunk.css.map": "/kodluyoruzhackathon/static/css/2.cf29e716.chunk.css.map",
-    "static/css/main.62ccda5d.chunk.css.map": "/kodluyoruzhackathon/static/css/main.62ccda5d.chunk.css.map",
-    "static/js/2.1daaafba.chunk.js.LICENSE.txt": "/kodluyoruzhackathon/static/js/2.1daaafba.chunk.js.LICENSE.txt"
+    "static/css/main.01bd7bfa.chunk.css.map": "/kodluyoruzhackathon/static/css/main.01bd7bfa.chunk.css.map",
+    "static/js/2.628b8b99.chunk.js.LICENSE.txt": "/kodluyoruzhackathon/static/js/2.628b8b99.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e55bad5.js",
     "static/css/2.cf29e716.chunk.css",
-    "static/js/2.1daaafba.chunk.js",
-    "static/css/main.62ccda5d.chunk.css",
-    "static/js/main.12fe1c20.chunk.js"
+    "static/js/2.628b8b99.chunk.js",
+    "static/css/main.01bd7bfa.chunk.css",
+    "static/js/main.756b8eab.chunk.js"
   ]
 }
