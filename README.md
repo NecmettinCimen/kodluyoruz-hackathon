@@ -100,7 +100,11 @@ https://react.dev/
    ```sh
    npm i
    ```
-3. Goto
+3. Export NodeOption
+   ```sh
+   export NODE_OPTIONS=--openssl-legacy-provider
+   ```
+4. Goto
    ```sh
    npm start
    ```
