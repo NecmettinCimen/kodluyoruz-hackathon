@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/kodluyoruzhackathon/static/css/main.01bd7bfa.chunk.css",
-    "main.js": "/kodluyoruzhackathon/static/js/main.756b8eab.chunk.js",
-    "main.js.map": "/kodluyoruzhackathon/static/js/main.756b8eab.chunk.js.map",
-    "runtime-main.js": "/kodluyoruzhackathon/static/js/runtime-main.8e55bad5.js",
-    "runtime-main.js.map": "/kodluyoruzhackathon/static/js/runtime-main.8e55bad5.js.map",
-    "static/css/2.cf29e716.chunk.css": "/kodluyoruzhackathon/static/css/2.cf29e716.chunk.css",
-    "static/js/2.628b8b99.chunk.js": "/kodluyoruzhackathon/static/js/2.628b8b99.chunk.js",
-    "static/js/2.628b8b99.chunk.js.map": "/kodluyoruzhackathon/static/js/2.628b8b99.chunk.js.map",
-    "index.html": "/kodluyoruzhackathon/index.html",
-    "precache-manifest.b8ab03dbc3f60bd0d413a8da3aa71800.js": "/kodluyoruzhackathon/precache-manifest.b8ab03dbc3f60bd0d413a8da3aa71800.js",
-    "service-worker.js": "/kodluyoruzhackathon/service-worker.js",
-    "static/css/2.cf29e716.chunk.css.map": "/kodluyoruzhackathon/static/css/2.cf29e716.chunk.css.map",
-    "static/css/main.01bd7bfa.chunk.css.map": "/kodluyoruzhackathon/static/css/main.01bd7bfa.chunk.css.map",
-    "static/js/2.628b8b99.chunk.js.LICENSE.txt": "/kodluyoruzhackathon/static/js/2.628b8b99.chunk.js.LICENSE.txt"
+    "main.css": "/kodluyoruz-hackathon/static/css/main.01bd7bfa.chunk.css",
+    "main.js": "/kodluyoruz-hackathon/static/js/main.ef2a2ba1.chunk.js",
+    "main.js.map": "/kodluyoruz-hackathon/static/js/main.ef2a2ba1.chunk.js.map",
+    "runtime-main.js": "/kodluyoruz-hackathon/static/js/runtime-main.d3180ea6.js",
+    "runtime-main.js.map": "/kodluyoruz-hackathon/static/js/runtime-main.d3180ea6.js.map",
+    "static/css/2.cf29e716.chunk.css": "/kodluyoruz-hackathon/static/css/2.cf29e716.chunk.css",
+    "static/js/2.628b8b99.chunk.js": "/kodluyoruz-hackathon/static/js/2.628b8b99.chunk.js",
+    "static/js/2.628b8b99.chunk.js.map": "/kodluyoruz-hackathon/static/js/2.628b8b99.chunk.js.map",
+    "index.html": "/kodluyoruz-hackathon/index.html",
+    "precache-manifest.96e4dc5de2b0defa66f7717d2e3e8915.js": "/kodluyoruz-hackathon/precache-manifest.96e4dc5de2b0defa66f7717d2e3e8915.js",
+    "service-worker.js": "/kodluyoruz-hackathon/service-worker.js",
+    "static/css/2.cf29e716.chunk.css.map": "/kodluyoruz-hackathon/static/css/2.cf29e716.chunk.css.map",
+    "static/css/main.01bd7bfa.chunk.css.map": "/kodluyoruz-hackathon/static/css/main.01bd7bfa.chunk.css.map",
+    "static/js/2.628b8b99.chunk.js.LICENSE.txt": "/kodluyoruz-hackathon/static/js/2.628b8b99.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e55bad5.js",
+    "static/js/runtime-main.d3180ea6.js",
     "static/css/2.cf29e716.chunk.css",
     "static/js/2.628b8b99.chunk.js",
     "static/css/main.01bd7bfa.chunk.css",
-    "static/js/main.756b8eab.chunk.js"
+    "static/js/main.ef2a2ba1.chunk.js"
   ]
 }
