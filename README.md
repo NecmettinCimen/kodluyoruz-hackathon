@@ -1,4 +1,3 @@
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -10,15 +9,15 @@
 <br />
 <p align="center">
 
-  <h3 align="center">Kodluyoruz Hackaton React</h3>
+  <h3 align="center">Kodluyoruz Hackathon Project</h3>
 
   <p align="center">
-    Kodluyoruz Hackaton 
+    Kodluyoruz hackathon project - React-based web application
     <br />
     <a href="https://github.com/necmettincimen/kodluyoruz-hackathon"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://necmettincimen.github.io/kodluyoruz-hackathon">View Demo</a>
+    <a href="http://necmettincimen.github.io/kodluyoruz-hackathon/">View Demo</a>
     ·
     <a href="https://github.com/necmettincimen/kodluyoruz-hackathon/issues">Report Bug</a>
     ·
@@ -45,7 +44,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#publish">Publish & Release on Docker</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -59,9 +57,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Kodluyoruz Hackaton React
+Kodluyoruz hackathon project - React-based web application
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+A web application developed for the Kodluyoruz hackathon event, showcasing modern React development practices and responsive design.
 
 ## Demo https://necmettincimen.github.io/kodluyoruz-hackathon
 
@@ -71,20 +69,24 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [React](https://react.dev/)
+**Technologies:** `react` `typescript` `redux` `bootstrap` `reactstrap` `githubpages`
+
+* [React](https://reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Redux](https://redux.js.org/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Reactstrap](https://reactstrap.github.io/)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-https://react.dev/
+* Node.js (v14 or higher)
+* npm or yarn
 
 ### Installation
 
@@ -92,19 +94,15 @@ https://react.dev/
    ```sh
    git clone https://github.com/necmettincimen/kodluyoruz-hackathon.git
    ```
-   Goto Directory
+2. Navigate to the project directory
    ```sh
    cd kodluyoruz-hackathon
    ```
-2. Run Project
+3. Install dependencies
    ```sh
-   npm i
+   npm install
    ```
-3. Export NodeOption
-   ```sh
-   export NODE_OPTIONS=--openssl-legacy-provider
-   ```
-4. Goto
+4. Start the development server
    ```sh
    npm start
    ```
@@ -136,7 +134,7 @@ See the [open issues](https://github.com/necmettincimen/kodluyoruz-hackathon/iss
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -164,7 +162,11 @@ Project Link: [https://github.com/necmettincimen/kodluyoruz-hackathon](https://g
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [React](https://react.dev/)
+
+* [React](https://reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Redux](https://redux.js.org/)
+* [Bootstrap](https://getbootstrap.com/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -178,6 +180,6 @@ Project Link: [https://github.com/necmettincimen/kodluyoruz-hackathon](https://g
 [issues-shield]: https://img.shields.io/github/issues/necmettincimen/kodluyoruz-hackathon.svg?style=for-the-badge
 [issues-url]: https://github.com/necmettincimen/kodluyoruz-hackathon/issues
 [license-shield]: https://img.shields.io/github/license/necmettincimen/kodluyoruz-hackathon.svg?style=for-the-badge
-[license-url]: https://github.com/necmettincimen/kodluyoruz-hackathon/blob/master/LICENSE.txt
+[license-url]: https://github.com/necmettincimen/kodluyoruz-hackathon/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/necmettincimen
